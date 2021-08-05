@@ -1,0 +1,156 @@
+html{
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+}
+
+section.landing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#particles-js
+{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+    background-color: #001315;
+}
+
+div.icons{
+    position: fixed;
+    top: 400px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fa{
+	text-align: center;
+	text-decoration: none;
+
+    color: #0096aa;
+    font-size: 40px;
+    margin: 5px;
+    z-index:11;
+}
+
+.fa:hover{
+    opacity: 0.5;
+}
+
+div.nav{
+    padding: 10px;
+
+    height: 50px;
+    width: 480px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+
+    z-index: 11;
+}
+
+div.bar{
+
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    background-color: #001315;
+    z-index: 10;
+}
+
+a.nav{
+    
+    font-family: 'Staatliches', cursive;
+    font-size: 35px;
+
+    text-decoration: none;
+	color: #0096aa;
+    margin: auto;
+    
+}
+
+a.nav:hover {
+    color: #00a9bf;
+    font-size: 40px;
+}
+
+div.name{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+    margin: 400px 0 0 0;
+
+	z-index: 1;
+}
+
+h1.name{
+    /*filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));*/
+    font-family: 'Staatliches', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 170px;
+    line-height: 130px;
+
+    color: #00bcd4;
+    margin: 10px 0 0 0;
+}
+
+h2.name{
+
+    
+    font-family: 'Bungee', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 30px;
+    
+    color: #0096AA;
+
+    
+    margin: 0;
+}
+
+h3.name{
+    font-family: 'Noto Sans', cursive;
+    font-size: 20px;
+    line-height: 15px;
+    color: #00717f;
+    margin: 0;
+
+    align-self: flex-end;
+}
+
+section.info{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    margin: 400px 0 0 0;
+}
+
+h1.info{
+    font-family: "Staatliches", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 58px;
+
+    color: #999;
+}
